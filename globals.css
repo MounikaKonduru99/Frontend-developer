@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid #2563eb; /* Tailwind blue-600 */
+}
